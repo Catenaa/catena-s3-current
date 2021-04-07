@@ -1,5 +1,4 @@
 POSITIONS = {}
-
 POSITIONS.marker = {}
 POSITIONS.marker.active = false
 POSITIONS.marker.x = 0.0
