@@ -1,0 +1,400 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="chart.min.js" type="text/javascript"></script>
+		 <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script> 		
+		<script>
+		$(function() {
+			/* open the UI for user */
+			window.addEventListener('message', function(event) {
+				if(event.data.type == "open"){
+					$('.pomoc').css('display', 'block')
+					$('body').css('display', 'block')
+					$('html').css('display', 'block')
+				} else if (event.data.type == "close"){
+					$('.pomoc').css('display', 'none')
+					$('body').css('display', 'none')
+					$('html').css('display', 'none')
+				}
+			});
+		});	
+		</script>
+	</head>
+
+    <body>	
+		<div class="pomoc">	
+			<div class="container main">
+				<div class="row">
+					<ul class="menu">
+						<li data-id="page-main">
+							<span>Home - news</span>
+						</li>						
+						<li data-id="rules">
+							<span>Rules</span>
+						</li>				
+						<li data-id="keybinds">
+							<span>Keybinds</span>
+						</li>
+						<li data-id="commands">
+							<span>Commands</span>
+						</li>
+						<li data-id="jobs_activities">
+							<span>Jobs & Activities</span>
+						</li>
+						<li data-id="faq">
+						<span>F.A.Q</span>
+						</li>
+					</ul>
+					
+					<div id="close-help" class ="btn btn-danger" style="display: inline-block;">
+							<span>I ACCEPT THE CONDITIONS</span>
+					</div>
+				</div>	
+				
+				<div class=" page page-main">
+						<div class="row">
+							<div class="col-12">
+								<H1> Welcome to Server Name - A place to call home</H1>
+								<p><b>Server NameRP is a heavy voice roleplay server which to us means our staff enforces being in-character at all times and enforce all forms of roleplay to keep every players story meaningful.</b></p>
+								<br/>
+								<h2>Information</h2>
+								<p><b>Twitch:</b> http://twitch.tv/catenatv</p>
+								<p><b>Discord:</b> https://discord.gg/Gb3qY9b</p>
+								<p><b>Teamspeak3 Server:</b> Catenaroleplay.teamspeak.me</p> <br/>
+								<p>This is a work in progress and subject to change.</p><br/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-12"></div>
+							<div class="col-12  col-lg-12">
+								
+							</div>
+						</div>
+				</div>	
+				
+					<div class=" page keybinds" style="display:none;">						
+						<h2>Keybinds</h2>
+						<div class="row">
+							<div class="col-12 col-lg-6"><b>General Keybinds</b><br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>B</b></span> - Point <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>H</b></span> - Get in a vehicle trunk if close to one <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>T</b></span> - Open the Chat <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>X</b></span> - Put the hands up <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>Z</b></span> - Change voice distance <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>CAPSLOCK</b></span> - Talk on radio or phone (TokoVoip) <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>TILDE(`)</b></span> - Shows a players ID <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>COMMA(,)</b></span> - Ragdoll (fall to the ground "naturally") <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>CTRL</b></span> - Crouch <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>LSHIFT + E</b></span> - Push a vehicle <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>LSHIFT + G</b></span> - Police tackle <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>TAB</b></span> - Show your Hotbar <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F1</b></span> - Use the phone <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F2</b></span> - Open the inventory <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F3</b></span> - Open Job phone calls <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F5</b></span> - Opens general menu <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F7</b></span> - Check your Invoices <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F8</b></span> - FiveM Console <br/>	
+								<span class="btn btn-warning btn-sm mb-1"><b>F9</b></span> - Opens the emote menu <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F10</b></span> - Shows the Scoreboard <br/>	
+								<span class="btn btn-warning btn-sm mb-1"><b>F11</b></span> - Opens the mask menu <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>F12</b></span> - Takes a steam screenshot <br/>					
+								
+							</div>
+								<div class="col-12  col-lg-6">
+								<b>Police keybinds</b><br/>							
+								<span class="btn btn-primary btn-sm mb-1"><b>CTRL + X</b></span> - Police Radar (In car) <br/>
+								<span class="btn btn-primary btn-sm mb-1"><b>LSHIFT + E</b></span> - Arrest someone <br/>
+								<span class="btn btn-primary btn-sm mb-1"><b>X</b></span> - Resets plate reader if active <br/>
+								<span class="btn btn-primary btn-sm mb-1"><b>K</b></span> - Opens MDT with plate from car infront <br/><br/>
+								
+								<b>EMS keybinds</b><br/>	
+								<span class="btn btn-danger btn-sm mb-1"><b>E</b></span> - Heal a player while next to bed <br/>
+								<span class="btn btn-danger btn-sm mb-1"><b>ALT</b></span> - Turn the siren (on/off) <br/><br/>
+
+								<b>Mechanic keybinds</b><br/>	
+								<span class="btn btn-warning btn-sm mb-1"><b>X</b></span> - To use bed while in flatbed <br/>
+								<br/>
+								<b>Vehicle keybinds</b><br/>	
+								<span class="btn btn-warning btn-sm mb-1"><b>K</b></span> - Puts your Seatbelt (on/off)<br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>Y</b></span> - Turn the vehicle engine (on/off) <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>M</b></span> - Opens vehicle control panel <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>U</b></span> - Lock owned vehicle <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>G</b></span> - Open trunk/glovebox inventory <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>LSHIFT</b></span> - Nitrous while in vehicle <br/> 
+								<span class="btn btn-warning btn-sm mb-1"><b>B</b></span> - Cruise control <br/>	
+								<span class="btn btn-warning btn-sm mb-1"><b>H</b></span> - Turn vehicle lights (on/off) <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>H (hold)</b></span> - Detach trailer if in a truck <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>Backspace</b></span> - Turns the hazards (on/off) <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>-</b></span> - Left Blinker <br/>
+								<span class="btn btn-warning btn-sm mb-1"><b>=</b></span> - Right Blinker <br/>
+								</div>
+							</div>
+						</div>	
+						
+					<div class=" page commands"  style="display:none;">						
+						<div class="row">
+							<div class="col-12 col-lg-6">
+							<h2>Commands</h2></br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<h3><b>General</b></h3>	
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/invite (player_ID))</b></span> - Invite someone inside your motel/house (must knock at the door first)  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/e (EMOTE)</b></span> - To play an emote  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/e c</b></span> - Cancels current emote  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/hood</b></span> - Open vehicle hood <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/trunk</b></span> - Open vehicle trunk <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/engine</b></span> - Turn engine off/on <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/cash</b></span> - Shows cash <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/job</b></span> - Shows your job <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/transfervehicle "id" "plate"</b></span> - Transfer your vehicle to a player.<br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/givekey "</b></span> - Gives your car's key to the closest player.<br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/steal</b></span> - Access to a player inventory (need to have the hands up) <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/ping ID</b></span> - Ping a player  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/ping accept</b></span> - Accept the ping  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/ping reject</b></span> - Reject the ping  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/ping remove</b></span> - Remove ping  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/carry</b></span> - Carry a player  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/takehostage</b></span> - Take player as a hostage  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/piggyback</b></span> - Put a player on your back  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/kmh or /mph </b></span> - Changes the displayed speed units  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/allkeys </b></span> - Gives your vehicle keys back if your game crashed before </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/g1 </b></span> - Put glasses on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/g0 </b></span> - Takes glasses off </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/e1 </b></span> - Put earpiece on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/e0 </b></span> - Takes earpiece off </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/m1 </b></span> - Put mask on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/m0 </b></span> - Take mask off </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/t1 </b></span> - Put torso on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/t0 </b></span> - Take torso off </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/h1 </b></span> - Put hat on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/h0 </b></span> - Put torso on </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/showoutfits </b></span> - shows your saved your outfits </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/removeoutfit (ID) </b></span> - Detlets saved outfits. (ID = the slot you saved it to) </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/outfituse (ID) </b></span> - Will load your outfit. </br>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/saveclothes (ID) (NAME) </b></span> - This will save your current outfit. (NAME = Whatever you like) </br>
+								<br/>
+								<h3><b>Mechanic</b></h3>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/stopwinch</b></span> - Stop winch  <br/>
+								<span class="btn btn-warning btn-sm mb-1 mb-1"><b>/unfreezeflatbed</b></span> - Unfreeze bed  <br/>
+							</div>
+							<div class="col-12  col-lg-6">
+								<h3><b>Police</b></h3>								
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/raid</b></span> - Allows police to raid a property <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/mcard</b></span> - Shows right card <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/search</b></span> - Search players inventory <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/mdt</b></span> - Opens MDT <br/>
+								<h3><b>Police in vehicle</b></h3>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/anpr</b></span> - Toggles ANPR system  <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/fixedanpr</b></span> - Toggles ANPR alerts from fixed ANPR cameras on the map (Whitelisted). <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/readplate</b></span> - Reads the plate of the vehicle in front of you and puts it in chat. <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/checkplate PLATE</b></span> - Returns the ANPR markers currently active for the specified plate. <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/focusanpr PLATE</b></span> - Displays fixed ANPR alerts <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/setplateinfo PLATE;INFO</b></span> - Adds ANPR markers (INFO) for the specified plate. <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/setvehinfo INFO</b></span> - Adds ANPR markers (INFO) for the plate of the vehicle you're currently in. <br/>
+								<span class="btn btn-primary btn-sm mb-1 mb-1"><b>/anprinterface</b></span> - Toggles the ANPR interface. <br/>
+								<br/>
+							</div>
+						</div>
+				</div>	
+				
+				<div class=" page jobs_activities"  style="display:none;">						
+					<div class="row">
+						<div class="col-12 col-lg-12">
+						<h1>Public Jobs & Activities Guide</h1><br/><br/>
+						<h2>Mining:</h2>
+							<p>Mining is a <b>free</b> activity in Server Name, meaning you do not need a specific job role to do it.<br/>
+								- To start mining head to the quary on your minimap, There you will find a marker to get your pickaxe<br/>
+								- Once you have your pickaxe, proceed down into the quary area and swing your pickaxe at the rocks.<br/>
+								- When you have collected enough ore, you will need to go to the foundry (also on the map) to smelt your ore into ingots<br/>
+								- When you arrive at the foundry, proceed to the forge and you will be prompted to smelt your ores.<br/>
+								<b>Selling your ingots</b><br/>
+								- Head to the warehouse to sell your smelted minerals
+							</p>
+						<h2>Lumberjack:</h2>
+							<p>Lumberjack is a <b>free</b> activity in Server Name, meaning you do not need a specific job role to do it.<br/>
+								- To start lumberjacking head to the saw mill on your minimap, There you will find a marker to get your axe<br/>
+								- Once you have your axe, proceed down into the wooded area and swing your axe at the trees<br/>
+								- When you have collected enough wood, you will need to go to the wood packaging area (also on the map) to pack your wood<br/>
+								<b>Selling your packaged wood</b><br/>
+								- Head to the warehouse to sell your packaged wood
+							<br/>
+							</p>
+						<h2>Warehouse Haulage:</h2>
+							<p>Warehouse Haulage is a <b>free</b> activity in Server Name, meaning you do not need a specific job role to do it.<br/>
+								- To start haulage work, head to the warehouse marked on your map (Near the car dealership)<br/>
+								- Enter the marker and Press E to show the warehouse menu - You will see the current levels of stock held at the warehouse<br/>
+								- Press "Load Warehouse" and choose what type of freight you would like to haul.<br/>
+								<b>Choosing your vehicle type</b><br/>
+								- Once you have chosen your freight type (Wood, Food, Ingots) you will need to choose either a trailer load, or boxes.<br/>
+								- Whilst trailers will allow you to earn more money, vans are generally faster therefore you will complete the job quicker.<br/>
+								<b>Loading the freight</b><br/>
+								- Once you have chosen your delivery type (Trailer or Box) the relevant vehicle will spawn nearby<br/>
+								- Get in this vehicle and drive to the marker behind the warehouse to start loading your vehicle<br/>
+								- If you chose to haul a trailer, once you choose the amount of the load, the trailer will spawn near the warehouse<br/>
+								<b>Transporting the freight</b><br/>
+								- Once you are all loaded up, head to the export office at the docks<br/>
+								- Drive into the marker and leave your vehicle. Walk to the office your vehicle will be unloaded<br/>
+								- Once your vehicle is unloaded, you need to drive back to the warehouse to collect your pay!<br/>
+							</p>
+							<br/>
+						</div>
+					</div>	
+				</div>	
+				<div class=" page rules" 	style="display:none;">
+						<div class="row">
+							<div class="col-12">
+								<h1>RULES</h1>
+								<br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-12"></div>
+							<p><b>--.:قوانین عامة بالسیرفر</b><br>
+								&bull;--1 .يجب عليك استخدام اسمك الموجود في الستيم نفسه الموجود على الديسكورد-<br>
+								&bull;--2 .'يجب ان يكون اسمك اسم حقيقي وليس كمتال'ايوب الخرواني-<br>
+								&bull;--3  ./Report /911 /ooc " No Spam "يمنع تكرار بلاغات عن طريق-<br>
+								&bull;--4 .المتواجدة اعلى يمين الشاشة priority احترام<br>
+								&bull;--5 .يجب عليك تحمل مسؤوليتك اتناء تواجدك داخل المدينة متال Afk ان من تتحمل عواقبها-<br>
+								&bull;--6 <br>
+								&bull;--7 <br>
+								&bull;--8 <br>
+								&bull;--9 <br>
+								&bull;--10 <br>
+								&bull;--11 <br>
+								&bull;--12 <br>
+								&bull;--13 <br>
+								&bull;--14 <br>
+								&bull;--15 <br>
+								&bull;--16 <br>
+								&bull;--17 <br>
+								&bull;--18 <br>
+								&bull;--19 <br>
+								&bull;--20 .یمنع منعا باتا إجراء أي عملیة لنزع أي عضو من أعضاء الجسم-<br>
+								&bull;--21 .لا یمكن للاعبین إجبار ضحایاهم على سحب الأموال من أجهزة الصراف الآلي ، أو بیع الممتلكات-<br>
+							<p><b>--.:قوانین الشرطة</b><br>
+								&bull;--1 .التواجد في رادیو الشرطة و عدم الخروج-<br>
+								&bull;--2 .عدم التواجد لمدة یومین متتالیین ینتج عنها عقوبة إلا بعذر و یجب تقدیمه قبل ترك العمل-<br>
+								&bull;--3 .إذا تم خطفك من قبل عصابة یجب تنفیذ اوامرها بدون استثناء-<br>
+								&bull;--4 .الشرطي موجب علیه احترام المواطن و العكس صحیح-<br>
+								&bull;--5 .على الشرطي احترام من هم اعلى رتبة منه في سلك الشرطة-<br>
+								&bull;--6 .ممنوع على الشرطي استعمال الأسلحة الثقیلة في إلا في التدخلات الكبیرة-<br>
+								&bull;--7 .admin یمنع على رجال الشرطة القیام بأي عمل اجرامي بدون إذن-<br>
+								&bull;--8 .في حال المطاردات بامكانك فقط محاوله ایقاف المجرم عن طریق قطع الطریق علیه-<br>
+								&bull;--9 .الالتزام بالملابس والمركبات والاسلحة الخاصة برتبتك-<br>
+								&bull;--10 .یمنع التجارة او بیع او اعطاء معدات الشرطة-<br>
+								&bull;--11 .عدم اظهار السلاح إلا لسبب ولا یكون سبب سخیف-<br>
+								&bull;--12 .يسمح باستخراج الهيليكوبتر في أي وقت وأي زمان-<br>
+								&bull;--13 .لا یحق لك تصفید أي شخص بمخالفة مروریة أو الذهاب به إلى التحقیق الا إذا كان الشخص غیر متعاون-<br>
+								&bull;--14 .لا یحق لك ارسال أي شخص للسجن بدون دلائل على جریمته-<br>
+								&bull;--15 .عدم استخدام الرادیو الا للتبلیغ والتعامل معه باحترافیة-<br>
+								&bull;--16 .إعطاء التحیة العسكریة اجباري الى من هو أعلى منك رتبة / رد التحیة اجباري كذلك-<br>
+								&bull;--17 .یسمح بتفتیش مواطن إلا إذا كان في قائمة المطلوبین أو في اطلاق نار-<br>
+								&bull;--18 .یجب الاتزام بقوانین المرور وعدم كسرها إلا في وقت البلاغات-<br>
+								&bull;--19 .یمنع منعا باتا السب و الشتم بین رجال الشرطة، و في حال ذلك سیتم أخذ الإجراءات اللازمة في حقهم-<br>
+								&bull;--20 .ممنوع منعا كلیا على أي من غادر سلك حكومي أن یشتغل من جدید بأي سلك من أسلاكها-<br>
+								&bull;--21 .( Red Zone )ممنوع على رجال الشرطة الدخول الى الأماكن-<br>
+								&bull;--22 یمنع منعا باتا تفتیش و أخذ أغراض شخص فاقد للوعي (أسلحة، رادیو، بطاقة التعریف...) لا من طرف-<br>
+								&bull;--رجال الشرطة و الدرك ولا من طرف رجال العصابات، یحق للسلطات المسلحة التوجه إلى المستشفى و إلقاء<br>
+								&bull;--.القبض على الشخص من أجل التحقیق بعد إنعاشه من طرف طبیب أو تلقائیا<br>
+							<p><b>--.:قوانین الأطباء</b><br>
+								&bull;--1 .التواجد دائما برادیو الإسعاف طوال وجودك داخل السیرفر عند مزاولة العمل-<br>
+								&bull;--2 .احترام الرتب الاعلى منك داخل الرادیو والسیرفر-<br>
+								&bull;--3 .یمنع منعا باتا توجه أكثر من طبیب لنفس البلاغ إلا بأمر من أعلى رتبة في الرادیو-<br>
+								&bull;--4 .قبل انعاش أي شخص تأكد دائما من البحث عن سبب الإصابة ومكانها في الجسم وابلاغها للعملیات-<br>
+								&bull;--5 .إذا كان سبب الاصابة غیر واضح-<br>
+								&bull;--6 .ممنوع إنعاش أي شخص مات منتحرا، منفجرا، أو حرق-<br>
+								&bull;--7 .Admin ممنوع على الأطباء القیام بأي عمل خارج القانون الا بموافقة-<br>
+								&bull;--8 .لا یحق للطبیب مزاولة عمله كطبیب خارج الخدمة-<br>
+								&bull;--9 .یمنع التواجد في أماكن إطلاق النار-<br>
+								&bull;--10 .یمنع إنعاش أي شخص خارج المستشفى الا في حال تقدیم إسعافات أولیة-<br>
+								&bull;--11 .یجب على المسعف أن یكون مجهزا بكل المعدات لاستلام أي بلاغ-<br>
+								&bull;--12 .یجب على كل مسعف الحفاظ على سیارته بحالة جیدة دائما وفي حال مخالفة ذلك یعطى انذار وظیفي-<br>
+								&bull;--13 .قبل اخذ اي شخص تم اسقاطه من الشرطة الى المستشفى یجب أخذ الأمر من أحد أفراد الشرطة-<br>
+								&bull;--14 .في حالة وجود عملیة سطو یجب التأكد من تأمین المنطقة من قبل أفراد الشرطة وانتظار الأمر بالدخول للمكان-<br>
+								&bull;--15 .في حال تم تهدیدك من قبل مجرم یجب علیك الانصیاع لأوامره-<br>
+								&bull;--16 .یجب الاتزام بقوانین المرور وعدم كسرها إلا في وقت البلاغات-<br>
+								&bull;--17 .ممنوع منعا كلیا على أي طبیب أن یدخل في أي عمل غیر شرعي-<br>
+								&bull;--18 . يسمح باستعمال المروحية فقط في الحالات المتواجدة في القرية او في مكان بعيد وسط المدينة-<br>
+							<p><b>--.:قوانین العصابات</b><br>
+								&bull;--1 .عدد افراد العصابة هو 5 اشخاص في كل عصابة-<br>
+								&bull;--2 .كل عصابة سيكون لديها غرفة في Discord-<br>
+								&bull;--3 .يمنع السرقة إلا فى وجود 5 من عناصر الشرطة كحد أدنى-<br>
+								&bull;--4 .فدية الرهائن تتراوح ما بين 5000 الى 10000-<br>
+								&bull;--5 .لا يمكن للاعبين إجبار ضحاياهم على سحب الأموال من أجهزة الصراف الآلي ، أو بيع الممتلكات ، أو بيع المركبات-<br>
+								&bull;--6 .لا يحق للمجرمين قتل الرهينة اذا ثم التعاون من قبله أو من قبل الشرطة - و العكس صحيح-<br>
+								&bull;--7 في حال خطف الرهينة يجب على الخاطف التوجه الى مكان التفاوض في أسرع وقت ممكن وعدم اطالة  عملية الخطف-<br>
+								&bull;-- .و يجب على هذا الأخير تقمص شخصية الرهينة.<br>
+								&bull;--8 .يمنع منعا باتا على أفراد العصابات العمل يدا بيد ضد عناصر الشرطة-<br>
+								&bull;--9 .يسمح التعاون بين 2 عصابات فقط اتناء سرقة البنك الكبيرة-<br>
+								&bull;--10 .يمنع بيع الأسلحة للمواطنين العاديين-<br>
+							<h5> For more information check out our Discord!</h5>
+						</div>
+				</div>
+				<div class=" page faq" 	style="display:none;">
+						<div class="row">
+							<div class="col-12">
+								<h1>Frequently Asked Questions</h1>
+								<br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-12"></div>
+							<p><b>How do I speak?</b><br>
+								We use TokoVoip. To learn how to set this up please follow the instrutions on the toko screen or look at the forums.<br><br>
+
+							<b>How and where do I get a job?</b><br>
+								Go down to the job center marked as a purple "i" on your map. There you will find a list of jobs that are currently not whitelisted. However, a lot of jobs you don't need a job role! Whitelisted jobs are currently mechanics, EMS, and Police. To apply for these jobs, fill out the applications in their section of the forums.<br><br>
+
+							<b>Where can I buy a phone?</b><br>
+								Cell phones can be found at some of the convenience stores placed around the map and cost about $400.<br><br>
+
+							<b>What key do I press to do X?</b><br>
+								Please see the keybinds list or use /help.<br><br>
+
+							<b>Where do I get a gun license?</b><br>
+								Gun licenses can be purchased at the FIB building.<br><br>
+
+							<b>I’m bleeding out! What do I do?</b><br>
+								Contact EMS through your phone or come down to EMS. If you die before they are able to reach you, you will be prompted to send a GPS signal to EMS with G. If EMS are not available, press and hold E to take locals, you will not lose your items.<br><br>
+
+							<b>I just dropped dead. Why?</b><br>
+								Our server has a food system implemented. You will need to make sure to feed and water yourself occasionally to prevent yourself from starving or getting dehydrated.<br><br>
+
+							<b>What are the speed limits?</b><br>
+								The speed limits are as follow 40 mph in town, 55 mph on country roads and 80 mph on the highway.</p>
+						</div>
+				</div>
+			</div>	 
+		</div>
+    </body>
+	
+	<script type="text/javascript">
+	$(".pulpit li span").click(function(){
+		$('.main.container > *').hide();		
+		$('.'+$(this).data('id')).show();
+
+	});
+	$(".close-dialog").click(function(){	
+		$('.dialog').hide();
+	});		
+	$("#close-help").click(function(){
+		$('.page').hide();
+		$('.page-main').show();
+		$.post('http://ctn-help/NUIFocusOff', JSON.stringify({}));
+	});
+	$(".menu li").click(function(){
+		$('.container .page').hide();		
+		$('.container .page.'+$(this).data('id')).show();
+	});
+	document.onkeyup = function (data) {
+		if (data.which == 27) { // Escape key
+			$('.pomoc').css('display', 'none')
+			$.post('http://ctn-help/NUIFocusOff', JSON.stringify({}));
+		}
+	};
+	</script>
+</html>

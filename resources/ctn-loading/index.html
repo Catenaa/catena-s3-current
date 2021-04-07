@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link href="keks.css" rel="stylesheet" type="text/css" />
+       
+    </head>
+    <body>
+      <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="video.webm" type="video/webm">
+        </video>
+		<audio id="loading" autoplay loop ><source src="testaac.mp4" type="audio/aac"></audio>
+      </div>
+
+      <div class="top">
+        <div id="bottom_nav">
+          <p class="saving"><span>.</span><span>.</span><span>.</span></p>
+          </div>
+      </div>   
+      </div>
+	  
+	  <script>
+    var play = false;
+    var myAudio = document.getElementById("loading");
+    
+    myAudio.volume = 0.1;
+	
+	
+    function onKeyDown(event) {
+            switch (event.keyCode) {
+                case 32: //SpaceBar                    
+                    if (play) {
+                        myAudio.pause();
+                        play = false;
+                    } else {
+                        myAudio.play();
+                        play = true;
+                    }
+                    break;
+            }
+      return false;
+    }
+    window.addEventListener("keydown", onKeyDown, false);
+    </script>
+	  
+    </body>
+</html>

@@ -1,0 +1,21 @@
+--Name: 3 | 2021-02-01T19:07:06Z
+CircleZone:Create(vector3(551.62, -1367.26, 29.64), 3.0, {
+  name="3",
+  useZ=false,
+  --debugPoly=true
+})
+
+--Name: 5 | 2021-02-02T19:00:18Z
+CircleZone:Create(vector3(-233.62, -1195.69, 37.25), 5.0, {
+  name="5",
+  useZ=false,
+  --debugPoly=true
+})
+
+--Name: you | 2021-02-02T19:01:35Z
+CircleZone:Create(vector3(-237.67, -1188.93, 37.27), 10.0, {
+  name="you",
+  useZ=false,
+  --debugPoly=true
+})
+

@@ -1,0 +1,90 @@
+RegisterNetEvent('ctn-911:client:createBlip')
+AddEventHandler('ctn-911:client:createBlip', function(type, coords, name, message, id, source)
+    plyData = QBCore.Functions.GetPlayerData()
+    PlayerJob = plyData.job
+
+	if ((PlayerJob.name == "police" or PlayerJob.name == "gendarme" or PlayerJob.name == "ambulance") and PlayerJob.onduty) or (source == GetPlayerServerId(PlayerId())) then
+		local blip = AddBlipForCoord(coords)
+		SetBlipSprite(blip, 280)
+		SetBlipScale(blip, 0.8)
+		SetBlipColour(blip, (typ == "police" or typ == "gendarme") and 1 or 3)
+		SetBlipAsShortRange(blip, false)
+		BeginTextCommandSetBlipName("STRING")
+		AddTextComponentString(((type == "police" and "Police Call") or (type == "gendarme" and "Gendarme Call")) or "Ambulance Call")
+		EndTextCommandSetBlipName(blip)
+
+		if type == "police" then
+            TriggerEvent('chat:addMessage', {template = '<div class="chat-message" style="background-color: rgba(59, 160, 255, 0.75);"><b>Emergency Call 100 #' .. id .. ' | ' .. name .. '</b> ' .. message .. '</div>'})
+		elseif type == "ems" then
+			TriggerEvent('chat:addMessage', {template = '<div class="chat-message" style="background-color: rgba(255, 59, 62, 0.75);"><b>Emergency Call 101 #' .. id .. ' | ' .. name .. '</b> ' .. message .. '</div>'})
+		elseif type == "gendarme" then
+		    TriggerEvent('chat:addMessage', {template = '<div class="chat-message" style="background-color: rgba(148, 0, 0, 0.75);"><b>Emergency Call 100g #' .. id .. ' | ' .. name .. '</b> ' .. message .. '</div>'})
+		end
+
+		TriggerEvent("InteractSound_CL:PlayOnOne", "demo", 0.4)
+
+		Citizen.Wait(60000)
+		RemoveBlip(blip)
+	end
+end)
+
+RegisterNetEvent('ctn-911:client:reply')
+AddEventHandler('ctn-911:client:reply', function(type, id, message,officer, source)
+	if ((PlayerJob.name == "police" or PlayerJob.name == "gendarme" or PlayerJob.name == "ambulance") and PlayerJob.onduty) or (source == GetPlayerServerId(PlayerId())) then
+		TriggerEvent('chat:addMessage', {template = '<div class="chat-message server"><b>Emergency Call ' .. ((type == 'police' and '100') or (type == 'gendarme' and '100g') or '101') .. 'r #' .. id .. ' | ' .. officer .. '</b> ' .. message .. '</div>'})
+		TriggerEvent("InteractSound_CL:PlayOnOne", "demo", 0.4)
+	end
+end)
+
+RegisterNetEvent('ctn-911:client:justcalled')
+AddEventHandler('ctn-911:client:justcalled', function()
+	if QBCore.Functions.GetPlayerData().metadata["isdead"] or IsEntityPlayingAnim(PlayerPedId(), "cellphone@", "cellphone_call_listen_base", 3) or IsPedRagdoll(PlayerPedId()) then
+		return
+	end
+
+    RequestAnimDict("cellphone@")
+    while ( not HasAnimDictLoaded( "cellphone@" ) ) do
+        Wait(10)
+    end
+
+    TaskPlayAnim(PlayerPedId(), "cellphone@", "cellphone_call_listen_base", 2.0, 1.0, -1, 49, 0, 0, 0, 0)
+    attachPropPhone()
+
+    Wait(5000)
+
+    ClearPedTasks(PlayerPedId())
+    removeAttachedPropPhone()
+end)
+
+function removeAttachedPropPhone()
+	if DoesEntityExist(attachedPropPhone) then
+		DeleteEntity(attachedPropPhone)
+		attachedPropPhone = 0
+	end
+end
+
+function attachPropPhone()
+    removeAttachedPropPhone()
+	attachModelPhone = GetHashKey('prop_player_phone_01')
+	SetCurrentPedWeapon(PlayerPedId(), 0xA2719263)
+    local bone = GetPedBoneIndex(PlayerPedId(), 57005)
+    
+    
+	RequestModel(attachModelPhone)
+	while not HasModelLoaded(attachModelPhone) do
+		Citizen.Wait(100)
+    end
+    
+	attachedPropPhone = CreateObject(attachModelPhone, 1.0, 1.0, 1.0, 1, 1, 0)
+	AttachEntityToEntity(attachedPropPhone, PlayerPedId(), bone, 0.14, 0.01, -0.02, 110.0, 120.0, -15.0, 1, 0, 0, 0, 2, 1)
+end
+
+RegisterCommand('lfmso', function()
+	local nearbyVehicles = QBCore.Functions.GetVehicles()
+	local ped = PlayerPedId()
+	local coords = GetEntityCoords(ped)
+	for k, v in pairs(nearbyVehicles) do
+		if #(GetEntityCoords(v) - coords) <= 50.0 then
+		end
+	end
+end)
