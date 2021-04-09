@@ -1,2 +1,2 @@
-cd C:\Users\Administrator\Desktop\catena-s3
-C:\Users\Administrator\Desktop\catena-s3\FXServer.exe +set sv_licenseKey f5z3b456cou5dxon0m94v5qvtypgb57u +exec server.cfg +set onesync_population true +set onesync legacy true
+start C:\Users\Administrator\Desktop\catena-s3-current\run.cmd
+exit

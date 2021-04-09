@@ -6739,10 +6739,36 @@
             This native converts the passed string to a hash.
             </summary>
         </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_LAST_PED_IN_VEHICLE_SEAT">
+            <summary>
+            Seat indexes:
+            
+            *   1 = Driver
+            *   2 = Front Right Passenger
+            *   3 = Back Left Passenger
+            *   4 = Back Right Passenger
+            *   5 = Further Back Left Passenger (vehicles &gt; 4 seats)
+            *   6 = Further Back Right Passenger (vehicles &gt; 4 seats)
+            *   etc.
+            </summary>
+        </member>
         <member name="F:CitizenFX.Core.Native.Hash.GET_NUM_RESOURCE_METADATA">
             <summary>
             Gets the amount of metadata values with the specified key existing in the specified resource's manifest.
             See also: [Resource manifest](https://docs.fivem.net/resources/manifest/)
+            </summary>
+        </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_PED_IN_VEHICLE_SEAT">
+            <summary>
+            Seat indexes:
+            
+            *   1 = Driver
+            *   2 = Front Right Passenger
+            *   3 = Back Left Passenger
+            *   4 = Back Right Passenger
+            *   5 = Further Back Left Passenger (vehicles &gt; 4 seats)
+            *   6 = Further Back Right Passenger (vehicles &gt; 4 seats)
+            *   etc.
             </summary>
         </member>
         <member name="F:CitizenFX.Core.Native.Hash.GET_PED_SOURCE_OF_DAMAGE">
@@ -6980,6 +7006,11 @@
         <member name="F:CitizenFX.Core.Native.Hash.NETWORK_GET_ENTITY_OWNER">
             <summary>
             Returns the owner ID of the specified entity.
+            </summary>
+        </member>
+        <member name="F:CitizenFX.Core.Native.Hash.NETWORK_GET_FIRST_ENTITY_OWNER">
+            <summary>
+            Returns the first owner ID of the specified entity.
             </summary>
         </member>
         <member name="F:CitizenFX.Core.Native.Hash.PROFILER_ENTER_SCOPE">
@@ -8212,6 +8243,27 @@
             This native converts the passed string to a hash.
             </summary>
         </member>
+        <member name="M:CitizenFX.Core.Native.API.GetLastPedInVehicleSeat(System.Int32,System.Int32)">
+            <summary>
+            Seat indexes:
+            *   1 = Driver
+            *   2 = Front Right Passenger
+            *   3 = Back Left Passenger
+            *   4 = Back Right Passenger
+            *   5 = Further Back Left Passenger (vehicles &gt; 4 seats)
+            *   6 = Further Back Right Passenger (vehicles &gt; 4 seats)
+            *   etc.
+            </summary>
+            <param name="vehicle">
+            The target vehicle.
+            </param>
+            <param name="index">
+            The seat index.
+            </param>
+            <returns>
+            The last ped in the specified seat of the passed vehicle. Returns 0 if the specified seat was never occupied or the last ped does not exist anymore.
+            </returns>
+        </member>
         <member name="M:CitizenFX.Core.Native.API.GetNumResourceMetadata(System.String,System.String)">
             <summary>
             Gets the amount of metadata values with the specified key existing in the specified resource's manifest.
@@ -8223,6 +8275,27 @@
             <param name="metadataKey">
             The key to look up in the resource manifest.
             </param>
+        </member>
+        <member name="M:CitizenFX.Core.Native.API.GetPedInVehicleSeat(System.Int32,System.Int32)">
+            <summary>
+            Seat indexes:
+            *   1 = Driver
+            *   2 = Front Right Passenger
+            *   3 = Back Left Passenger
+            *   4 = Back Right Passenger
+            *   5 = Further Back Left Passenger (vehicles &gt; 4 seats)
+            *   6 = Further Back Right Passenger (vehicles &gt; 4 seats)
+            *   etc.
+            </summary>
+            <param name="vehicle">
+            The target vehicle.
+            </param>
+            <param name="index">
+            The seat index.
+            </param>
+            <returns>
+            The ped in the specified seat of the passed vehicle. Returns 0 if the specified seat is not occupied.
+            </returns>
         </member>
         <member name="M:CitizenFX.Core.Native.API.GetPedSourceOfDamage(System.Int32)">
             <summary>
@@ -8653,6 +8726,17 @@
             </param>
             <returns>
             On the server, the server ID of the entity owner. On the client, returns the player/slot ID of the entity owner.
+            </returns>
+        </member>
+        <member name="M:CitizenFX.Core.Native.API.NetworkGetFirstEntityOwner(System.Int32)">
+            <summary>
+            Returns the first owner ID of the specified entity.
+            </summary>
+            <param name="entity">
+            The entity to get the first owner for.
+            </param>
+            <returns>
+            The server ID of the first entity owner.
             </returns>
         </member>
         <member name="M:CitizenFX.Core.Native.API.ProfilerEnterScope(System.String)">
