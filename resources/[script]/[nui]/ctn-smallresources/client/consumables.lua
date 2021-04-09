@@ -277,6 +277,7 @@ AddEventHandler("consumables:client:DrinkAlcohol", function(itemName)
         disableCombat = true,
     }, {}, {}, {}, function() -- Done
         TriggerEvent("destroyProp")
+        TriggerServerEvent("QBCore:Server:RemoveItem", itemName, 1)
         TriggerEvent("debug", 'Consumables: Alcohol', 'success')
         TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove")
@@ -473,6 +474,7 @@ AddEventHandler("consumables:client:Eat", function(itemName)
 		disableCombat = true,
     }, {}, {}, {}, function() -- Done
         TriggerEvent("destroyProp")
+        TriggerServerEvent("QBCore:Server:RemoveItem", itemName, 1)
         TriggerEvent("debug", 'Consumables: ' .. QBCore.Shared.Items[itemName].label, 'success')
         TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove")
         TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -491,6 +493,7 @@ AddEventHandler("consumables:client:Drink", function(itemName)
 		disableCombat = true,
     }, {}, {}, {}, function() -- Done
         TriggerEvent("destroyProp")
+        TriggerServerEvent("QBCore:Server:RemoveItem", itemName, 1)
         TriggerEvent("debug", 'Consumables: ' .. QBCore.Shared.Items[itemName].label, 'success')
         TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove")
         TriggerEvent('animations:client:EmoteCommandStart', {"c"})
