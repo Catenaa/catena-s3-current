@@ -63,6 +63,20 @@ AddEventHandler('xd-weed:processCannabis', function()
 		TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items['cannabis'], "remove")                                                                     				
 end)
 
+QBCore.Functions.CreateCallback('xd-weed:server:GetActivity', function(source, cb)
+    local PoliceCount = 0
+    
+    for k, v in pairs(QBCore.Functions.GetPlayers()) do
+        local Player = QBCore.Functions.GetPlayer(v)
+        if Player ~= nil then
+            if (Player.PlayerData.job.name == "police" and Player.PlayerData.job.onduty) then
+                PoliceCount = PoliceCount + 1
+            end
+        end
+    end
+
+    cb(PoliceCount)
+end)
 
 function CancelProcessing(playerId)
 	if playersProcessingCannabis[playerId] then

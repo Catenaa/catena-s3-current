@@ -35,6 +35,9 @@ Config.RandomInt = function(length)
 end
 
 
+Config.MinimumPolice = 4
+
+
 Config.DrugsPrice = {
     ["joint"] = {
         min = 100,

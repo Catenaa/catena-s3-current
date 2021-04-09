@@ -13,9 +13,10 @@ local Keys = {
 QBCore = nil
 isLoggedIn = true
 
+CurrentCops = 0
+
 local menuOpen = false
 local wasOpen = false
-CurrentCops = 0
 
 Citizen.CreateThread(function()
     while true do
@@ -27,29 +28,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-RegisterNetEvent('police:SetCopCount')
-AddEventHandler('police:SetCopCount', function(amount)
-    CurrentCops = amount
-end)
-
 -- Code
-
-function DrawText3D(x, y, z, text)
-	SetTextScale(0.35, 0.35)
-    SetTextFont(4)
-    SetTextProportional(1)
-    SetTextColour(255, 255, 255, 215)
-    SetTextEntry("STRING")
-    SetTextCentre(true)
-    AddTextComponentString(text)
-    SetDrawOrigin(x,y,z, 0)
-    DrawText(0.0, 0.0)
-    local factor = (string.len(text)) / 370
-    DrawRect(0.0, 0.0+0.0125, 0.017+ factor, 0.03, 0, 0, 0, 75)
-    ClearDrawOrigin()
-end
-
-
 local spawnedWeeds = 0
 local weedPlants = {}
 local isPickingUp, isProcessing = false, false
@@ -88,13 +67,20 @@ Citizen.CreateThread(function()
 			DrawMarker(27, Config.CircleZones.WeedProcessing.coords.x, Config.CircleZones.WeedProcessing.coords.y, Config.CircleZones.WeedProcessing.coords.z - 0.66 , 0, 0, 0, 0, 0, 0, 1.0, 1.0, 1.0, 255, 0, 0, 200, 0, 0, 0, 0)
 
 			if not isProcessing then
-				--QBCore.Functions.Draw2DText('Press ~g~[ E ]~w~ to Process Cannabis')
+				Draw2DText(0.5, 0.88, 'Press ~g~[ E ]~w~ to Process Cannabis', 0.5)
 			end
 
 			if IsControlJustReleased(0, 38) and not isProcessing then
 				QBCore.Functions.TriggerCallback('xd-weed:getdrugs', function(result)
 						if result then
-						    ProcessWeed()
+							QBCore.Functions.TriggerCallback('xd-weed:server:GetActivity', function(cop)
+							    CurrentCops = cop
+							    if CurrentCops >= Config.MinimumPolice then
+						            ProcessWeed()
+							    else
+								    QBCore.Functions.Notify("Makaynkch Police (" ..CurrentCops.. ' / ' ..Config.MinimumPolice .. ')' , "error")
+							    end
+						    end)
 					    else
 						    QBCore.Functions.Notify('You dont have enough Weed Bag or Cannabis', 'error')
 					    end
@@ -181,6 +167,9 @@ Citizen.CreateThread(function()
 			end
 
 			if IsControlJustReleased(0, 38) and not isPickingUp then
+				QBCore.Functions.TriggerCallback('xd-weed:server:GetActivity', function(cop)
+					CurrentCops = cop
+				if CurrentCops >= Config.MinimumPolice then
 				isPickingUp = true
 				TaskStartScenarioInPlace(playerPed, 'world_human_gardener_plant', 0, false)
 
@@ -202,6 +191,10 @@ Citizen.CreateThread(function()
 				end) -- Cancel
 
 				isPickingUp = false
+			    else
+					QBCore.Functions.Notify("Makaynkch Police (" ..CurrentCops.. ' / ' ..Config.MinimumPolice .. ')' , "error")
+				end
+			end)
 			end
 		else
 			Citizen.Wait(500)
