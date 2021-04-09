@@ -33,13 +33,13 @@ function AttachPropAndPlayAnimation(dictionary,animation,typeAnim,timer,message,
         TriggerEvent("attachItem", "sandwich") 
     elseif itemid == "toast" then
         TriggerEvent("attachItem", "sandwich") 
-    elseif itemid == "donut" then
+    elseif itemid == "donut" or itemid == "7ercha" or itemid == "7erchafromage" or itemid == "7erchanutella" or itemid == "7erchazitoun" then
         TriggerEvent("attachItem", "donut")
     elseif itemid == "beer" or itemid == "vodka" or itemid == "whiskey" or itemid == "glassbeer" or itemid == "champagne" or itemid == "glasschampagne" or itemid == "tequila" or itemid == "tequilashot" or itemid == "whitewine" or itemid == "pinacolada" then
         TriggerEvent("attachItem", itemid)
     elseif itemid == "taco" or itemid == "fishtaco" then
         TriggerEvent("attachItem", "taco")
-    elseif itemid == "frappuccino" or itemid == "coffee" or itemid == "latte" or itemid == "capuchino" then
+    elseif itemid == "frappuccino" or itemid == "coffee" or itemid == "latte" or itemid == "capuchino" or itemid == "atay" then
         TriggerEvent("attachItem", "coffee")
     elseif itemid == "twerks_candy" or itemid == "snikkel_candy" then
         TriggerEvent("attachItem", "ego")
@@ -72,7 +72,7 @@ AddEventHandler('ctn-food:useFood', function(itemid)
         AttachPropAndPlayAnimation("mp_player_inteat@burger", "mp_player_int_eat_burger", 49,0, "Eating", "consumables:client:Eat", true,itemid,playerVeh)
     end
 	
-    if (itemid == "wings" or itemid == "donut" or itemid == "fries" or itemid == "frenchtoast" or itemid == "waffle" or itemid == "twerks_candy" or itemid == "snikkel_candy") then
+    if (itemid == "wings" or itemid == "7ercha" or itemid == "7erchafromage" or itemid == "7erchanutella" or itemid == "7erchazitoun" or itemid == "donut" or itemid == "fries" or itemid == "frenchtoast" or itemid == "waffle" or itemid == "twerks_candy" or itemid == "snikkel_candy") then
         AttachPropAndPlayAnimation("mp_player_inteat@burger", "mp_player_int_eat_burger", 49,0,"Eating", "consumables:client:Eat", true,itemid,playerVeh)
     end
 	
@@ -84,7 +84,7 @@ AddEventHandler('ctn-food:useFood', function(itemid)
         AttachPropAndPlayAnimation("amb@world_human_drinking@coffee@male@idle_a", "idle_c", 49,0,"Drink", "consumables:client:DrinkAlcohol", true,itemid,playerVeh)
     end
 
-    if (itemid == "water_bottle" or itemid == "cocacola") then
+    if (itemid == "water_bottle" or itemid == "atay" or itemid == "cocacola") then
         AttachPropAndPlayAnimation("amb@world_human_drinking@beer@female@idle_a", "idle_e", 49,0,"Drink", "consumables:client:Drink", true,itemid,playerVeh)
     end
 	

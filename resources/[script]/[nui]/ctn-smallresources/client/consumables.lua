@@ -67,6 +67,11 @@ local Consumeables = {
     ["glasschampagne"] = math.random(10, 20),
     ["tequilashot"] = math.random(10, 20),
     ["vodka"] = math.random(10, 20),
+    ["7ercha"] = math.random(10, 20),
+    ["7erchafromage"] = math.random(10, 20),
+    ["7erchanutella"] = math.random(10, 20),
+    ["7erchazitoun"] = math.random(10, 20),
+    ["atay"] = math.random(10, 20),
 }
 
 RegisterNetEvent("consumables:client:UseJoint")

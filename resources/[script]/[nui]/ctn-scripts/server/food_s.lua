@@ -210,6 +210,26 @@ QBCore.Functions.CreateUseableItem("pinacolada", function(source, item)
     TriggerClientEvent("ctn-food:useFood", source, "pinacolada")
 end)
 
+QBCore.Functions.CreateUseableItem("atay", function(source, item)
+    TriggerClientEvent("ctn-food:useFood", source, "atay")
+end)
+
+QBCore.Functions.CreateUseableItem("7ercha", function(source, item)
+    TriggerClientEvent("ctn-food:useFood", source, "7ercha")
+end)
+
+QBCore.Functions.CreateUseableItem("7erchafromage", function(source, item)
+    TriggerClientEvent("ctn-food:useFood", source, "7erchafromage")
+end)
+
+QBCore.Functions.CreateUseableItem("7erchanutella", function(source, item)
+    TriggerClientEvent("ctn-food:useFood", source, "7erchanutella")
+end)
+
+QBCore.Functions.CreateUseableItem("7erchazitoun", function(source, item)
+    TriggerClientEvent("ctn-food:useFood", source, "7erchazitoun")
+end)
+
 RegisterServerEvent('foooood:removeitem')
 AddEventHandler('foooood:removeitem', function(name)
     local src = source
