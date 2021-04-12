@@ -122,6 +122,7 @@ Config.Locations = {
 
 Config.ArmoryWhitelist = {
     "AFV00955",
+    "CBZ08729",
 }
 
 Config.Helicopter = "pzulu"
