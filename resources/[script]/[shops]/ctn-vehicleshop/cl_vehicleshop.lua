@@ -538,6 +538,8 @@ function CloseCreator(name, veh, price)
 					model = "sanchez1"
 				elseif model == "sanchez02" then
 					model = "sanchez2"
+				elseif model == "cogcabri" then
+					model = "cogcabrio"
 				end
                 TriggerEvent("vehiclekeys:client:SetOwner", GetVehicleNumberPlateText(personalvehicle), personalvehicle)
                 TriggerServerEvent('veh_shop:setVehicleOwned', vehicleProps, {damage = 10, fuel = 98}, model)

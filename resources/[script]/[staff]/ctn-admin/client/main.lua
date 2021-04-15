@@ -855,6 +855,8 @@ AddEventHandler('ctn-admin:client:SaveCar', function()
             model = "sanchez1"
         elseif model == "sanchez02" then
             model = "sanchez2"
+        elseif model == "cogcabri" then
+            model = "cogcabrio"
         end
 
         TriggerServerEvent('ctn-admin:server:SaveCar', props, {damage = 10, fuel = 98}, GetHashKey(veh), model, plate)
