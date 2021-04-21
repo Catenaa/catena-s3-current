@@ -1,6 +1,6 @@
 
 ================================================================
-======== FXServer starting - 4/21/2021, 10:37:53 AM
+======== FXServer starting - 4/21/2021, 11:38:20 AM
 ================================================================
 [38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
 [38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
@@ -699,15 +699,8 @@
 [38;5;73m[ citizen-server-impl] ================
 [38;5;73m[ citizen-server-impl] 
 
-
-=================================================================
-FXServer crashed.
-A dump can be found at /home/catena-s3-current/alpine/opt/cfx-server/crashes/7e3a190a-14d9-4dd7-e071b7a6-d993f400.dmp.
-Crash report ID: e629394b-e93c-40e8-b6a2-6fc90dc98288
-=================================================================
-
 ================================================================
-======== FXServer starting - 4/21/2021, 10:38:28 AM
+======== FXServer starting - 4/21/2021, 11:38:46 AM
 ================================================================
 [38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
 [38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
@@ -1203,119 +1196,6 @@ Crash report ID: e629394b-e93c-40e8-b6a2-6fc90dc98288
 [38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
 [38;5;73m[ citizen-server-impl] ================
 [38;5;73m[ citizen-server-impl] 
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;211m[     script:ctn-core] [player-dropped] Frowmza.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
-[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
-[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;211m[     script:ctn-core] [ctn-core:playerSaved] Frowmza saved.
-[38;5;171m[script:ctn-multichar] [Catena] Frowmza (Citizen ID: AFV00955) has succesfully loaded!
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
-[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
-[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
-[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
-[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
-[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
-[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
-[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
-[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
-[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
-[38;5;211m[     script:ctn-core] [player-dropped] Frowmza.
-[38;5;211m[     script:ctn-core] [ctn-core:playerSaved] Frowmza saved.
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
-[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
 [38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
 [38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
 [38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
