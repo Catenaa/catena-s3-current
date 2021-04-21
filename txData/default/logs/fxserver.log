@@ -1,0 +1,1321 @@
+
+================================================================
+======== FXServer starting - 4/21/2021, 10:37:53 AM
+================================================================
+[38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 212 resources.
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 3.6.4 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Roleplay
+[38;5;73m[ citizen-server-impl] Started resource fivem
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for ghmattimysql
+[38;5;73m[ citizen-server-impl] Started resource ghmattimysql
+[38;5;161m[    c-scripting-core] Creating script environments for debug
+[38;5;73m[ citizen-server-impl] Started resource debug
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;73m[ citizen-server-impl] Started resource baseevents
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-core
+[38;5;73m[ citizen-server-impl] Started resource ctn-core
+[38;5;73m[ citizen-server-impl] Couldn't find resource webadmin.
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-discordconnector
+[38;5;73m[ citizen-server-impl] Started resource ctn-discordconnector
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-multicharacter
+[38;5;73m[ citizen-server-impl] Started resource ctn-multicharacter
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Could not make hard link for /home/catena-s3-current/resources//[standalone]/bob74_ipl/stream//cassidycreek/canyonriver01_lod.ymap <-> /home/catena-s3-current/cache/files/bob74_ipl/stream_cache/zd11e9f544f6c11671c083949cdaa614133676c19.
+[38;5;73m[ citizen-server-impl] Started resource bob74_ipl
+[38;5;73m[ citizen-server-impl] Started resource warmenu
+[38;5;73m[ citizen-server-impl] Started resource gamemeta
+[38;5;73m[ citizen-server-impl] Started resource gunmeta
+[38;5;73m[ citizen-server-impl] Started resource gunmetaDLC
+[38;5;161m[    c-scripting-core] Creating script environments for nevo-scripts
+[38;5;73m[ citizen-server-impl] Started resource nevo-scripts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-spawn
+[38;5;73m[ citizen-server-impl] Started resource ctn-spawn
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-inventory
+[38;5;73m[ citizen-server-impl] Started resource ctn-inventory
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hud
+[38;5;73m[ citizen-server-impl] Started resource ctn-hud
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weapons
+[38;5;73m[ citizen-server-impl] Started resource ctn-weapons
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-admin
+[38;5;73m[ citizen-server-impl] Started resource ctn-admin
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-spectate
+[38;5;73m[ citizen-server-impl] Started resource ctn-spectate
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-banking
+[38;5;73m[ citizen-server-impl] Started resource ctn-banking
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-atms
+[38;5;73m[ citizen-server-impl] Started resource ctn-atms
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-radio
+[38;5;73m[ citizen-server-impl] Started resource ctn-radio
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-api
+[38;5;73m[ citizen-server-impl] Started resource ctn-api
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-smallresources
+[38;5;73m[ citizen-server-impl] Started resource ctn-smallresources
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weathersync
+[38;5;73m[ citizen-server-impl] Started resource ctn-weathersync
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/methlab_shell.ytd uses 23.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/methlab_shell.ytd uses 23.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/frankelientje.ydr uses 27.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/frankelientje.ydr uses 27.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/micheal_shell.ydr uses 30.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/micheal_shell.ydr uses 30.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-interior
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-houses
+[38;5;73m[ citizen-server-impl] Started resource ctn-houses
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource ctn-vehicleshop
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-radialmenu
+[38;5;73m[ citizen-server-impl] Started resource ctn-radialmenu
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-phone
+[38;5;73m[ citizen-server-impl] Started resource ctn-phone
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-apartments
+[38;5;73m[ citizen-server-impl] Started resource ctn-apartments
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-storerobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-storerobbery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-doorlock
+[38;5;73m[ citizen-server-impl] Started resource ctn-doorlock
+[38;5;73m[ citizen-server-impl] Started resource ctn-lockpick
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-houserobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-houserobbery
+[38;5;73m[ citizen-server-impl] Started resource threatbar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-streetraces
+[38;5;73m[ citizen-server-impl] Started resource ctn-streetraces
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-carwash
+[38;5;73m[ citizen-server-impl] Started resource ctn-carwash
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-occasions
+[38;5;73m[ citizen-server-impl] Started resource ctn-occasions
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-jewellery
+[38;5;73m[ citizen-server-impl] Started resource ctn-jewellery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-bankrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-bankrobbery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-fitbit
+[38;5;73m[ citizen-server-impl] Started resource ctn-fitbit
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-commandbinding
+[38;5;73m[ citizen-server-impl] Started resource ctn-commandbinding
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vehiclerental
+[38;5;73m[ citizen-server-impl] Started resource ctn-vehiclerental
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-afkkick
+[38;5;73m[ citizen-server-impl] Started resource ctn-afkkick
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-anticheat
+[38;5;73m[ citizen-server-impl] Started resource ctn-anticheat
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-skillbar
+[38;5;73m[ citizen-server-impl] Started resource ctn-skillbar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weed
+[38;5;73m[ citizen-server-impl] Started resource ctn-weed
+[38;5;73m[ citizen-server-impl] Started resource ctn-loading
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-taxi
+[38;5;73m[ citizen-server-impl] Started resource ctn-taxi
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-news
+[38;5;73m[ citizen-server-impl] Started resource ctn-news
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-clothing
+[38;5;73m[ citizen-server-impl] Started resource ctn-clothing
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-clothings
+[38;5;73m[ citizen-server-impl] Started resource ctn-clothings
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-cityhall
+[38;5;73m[ citizen-server-impl] Started resource ctn-cityhall
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-pawnshop
+[38;5;73m[ citizen-server-impl] Started resource ctn-pawnshop
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-scoreboard
+[38;5;73m[ citizen-server-impl] Started resource ctn-scoreboard
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-diving
+[38;5;73m[ citizen-server-impl] Started resource ctn-diving
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-instances
+[38;5;73m[ citizen-server-impl] Started resource ctn-instances
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-traphouses
+[38;5;73m[ citizen-server-impl] Started resource ctn-traphouses
+[38;5;73m[ citizen-server-impl] Started resource ctn-keyminigame
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dispatch
+[38;5;73m[ citizen-server-impl] Started resource ctn-dispatch
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-priorities
+[38;5;73m[ citizen-server-impl] Started resource ctn-priorities
+[38;5;73m[ citizen-server-impl] Started resource policestation
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-queue
+[38;5;73m[ citizen-server-impl] Stopping resource hardcap
+[38;5;73m[ citizen-server-impl] Started resource ctn-queue
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-3dme
+[38;5;73m[ citizen-server-impl] Started resource ctn-3dme
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-scripts
+[38;5;73m[ citizen-server-impl] Started resource ctn-scripts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-logs
+[38;5;73m[ citizen-server-impl] Started resource ctn-logs
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-log
+[38;5;73m[ citizen-server-impl] Started resource ctn-log
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-bossmenu
+[38;5;73m[ citizen-server-impl] Started resource ctn-bossmenu
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-garages
+[38;5;73m[ citizen-server-impl] Started resource ctn-garages
+[38;5;73m[ citizen-server-impl] Started resource assets
+[38;5;73m[ citizen-server-impl] Started resource mlofixer
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_shell.ydr uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_shell.ydr uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_texture.ytd uses 25.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_texture.ytd uses 25.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource int_court
+[38;5;73m[ citizen-server-impl] Started resource ctn_lspd
+[38;5;73m[ citizen-server-impl] Asset hospitalv2/gabz_pillbox_textures_01.ytd uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset hospitalv2/gabz_pillbox_textures_01.ytd uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource hospitalv2
+[38;5;161m[    c-scripting-core] Creating script environments for PolyZone
+[38;5;73m[ citizen-server-impl] Started resource PolyZone
+[38;5;161m[    c-scripting-core] Creating script environments for postals
+[38;5;73m[ citizen-server-impl] Started resource postals
+[38;5;73m[ citizen-server-impl] Asset playboyv2/int_mafshell.ydr uses 18.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset playboyv2/int_mafshell.ydr uses 18.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource playboyv2
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^accs_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^accs_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^teef_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^teef_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_034_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_034_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_056_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_056_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_002_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_002_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_diff_044_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_diff_044_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_046_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_046_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_010_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_010_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_051_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_051_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_013_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_013_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_009_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_009_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_h_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_h_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p^p_head_026.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p^p_head_026.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^teef_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^teef_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_007_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_007_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_035_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_035_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^accs_diff_009_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^accs_diff_009_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_022_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_022_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_01^jbib_004_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_01^jbib_004_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p_male_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p_male_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_012_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_012_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^teef_002_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^teef_002_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^lowr_001_r.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^lowr_001_r.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_038_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_038_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^feet_diff_023_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^feet_diff_023_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_024_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_024_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_smuggler_01^jbib_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_smuggler_01^jbib_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_037_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_037_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freenıde_01^accs_001_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freenıde_01^accs_001_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_021_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_021_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_047_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_047_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_017_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_017_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_006_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_006_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01jbib_diff_017_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01jbib_diff_017_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_012_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_012_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_013_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_013_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p_female_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p_female_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_b.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_b.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_045_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_045_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^task_028_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^task_028_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_020_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_020_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^hair_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^hair_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_02^hair_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_02^hair_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_052_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_052_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-eup2021
+[38;5;73m[ citizen-server-impl] Started resource ctn-checkpoint
+[38;5;161m[    c-scripting-core] Creating script environments for lux_vehcontrol
+[38;5;73m[ citizen-server-impl] Started resource lux_vehcontrol
+[38;5;73m[ citizen-server-impl] Started resource ctn-jobs
+[38;5;73m[ citizen-server-impl] Started resource veh-hud
+[38;5;73m[ citizen-server-impl] Started resource assets_weapons
+[38;5;73m[ citizen-server-impl] Started resource addonweapons
+[38;5;73m[ citizen-server-impl] Started resource vehiclehandling
+[38;5;161m[    c-scripting-core] Creating script environments for vehiclefailure
+[38;5;73m[ citizen-server-impl] Started resource vehiclefailure
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner+hi.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner+hi.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu+hi.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu+hi.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource vehicles
+[38;5;161m[    c-scripting-core] Creating script environments for koil-debug
+[38;5;73m[ citizen-server-impl] Started resource koil-debug
+[38;5;161m[    c-scripting-core] Creating script environments for interact-sound
+[38;5;73m[ citizen-server-impl] Started resource interact-sound
+[38;5;73m[ citizen-server-impl] Started resource progressbar
+[38;5;161m[    c-scripting-core] Creating script environments for safecracker
+[38;5;73m[ citizen-server-impl] Started resource safecracker
+[38;5;161m[    c-scripting-core] Creating script environments for stopdespawn
+[38;5;73m[ citizen-server-impl] Started resource stopdespawn
+[38;5;73m[ citizen-server-impl] Started resource trafficadjuster
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-animations
+[38;5;73m[ citizen-server-impl] Started resource ctn-animations
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-jail
+[38;5;73m[ citizen-server-impl] Started resource ctn-jail
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-police
+[38;5;73m[ citizen-server-impl] Started resource ctn-police
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-mdt
+[38;5;73m[ citizen-server-impl] Started resource ctn-mdt
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hospital
+[38;5;73m[ citizen-server-impl] Started resource ctn-hospital
+[38;5;161m[    c-scripting-core] Creating script environments for policeradar
+[38;5;73m[ citizen-server-impl] Started resource policeradar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-prison
+[38;5;73m[ citizen-server-impl] Started resource ctn-prison
+[38;5;73m[ citizen-server-impl] Started resource hackgame
+[38;5;161m[    c-scripting-core] Creating script environments for notes
+[38;5;73m[ citizen-server-impl] Started resource notes
+[38;5;161m[    c-scripting-core] Creating script environments for noshuff
+[38;5;73m[ citizen-server-impl] Started resource noshuff
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_tsl.ydr uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_tsl.ydr uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_mle.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_mle.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_fm.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_fm.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt1.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt1.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_lg4.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_lg4.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sa60.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sa60.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rs050rr.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rs050rr.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_ete.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_ete.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rnr.ydr uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rnr.ydr uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt2.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt2.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_te37v.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_te37v.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sw388.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sw388.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource jdmrims
+[38;5;161m[    c-scripting-core] Creating script environments for playerhostage
+[38;5;73m[ citizen-server-impl] Started resource playerhostage
+[38;5;73m[ citizen-server-impl] Started resource dpclothing
+[38;5;161m[    c-scripting-core] Creating script environments for tattooshop
+[38;5;73m[ citizen-server-impl] Started resource tattooshop
+[38;5;73m[ citizen-server-impl] Started resource modz_pods
+[38;5;73m[ citizen-server-impl] Started resource menuv
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-SRadio
+[38;5;73m[ citizen-server-impl] Started resource ctn-SRadio
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-taskbarskill
+[38;5;73m[ citizen-server-impl] Started resource ctn-taskbarskill
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-balance
+[38;5;73m[ citizen-server-impl] Started resource ctn-balance
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-sellvehicle
+[38;5;73m[ citizen-server-impl] Started resource ctn-sellvehicle
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-mechanic
+[38;5;73m[ citizen-server-impl] Started resource ctn-mechanic
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-carry
+[38;5;73m[ citizen-server-impl] Started resource ctn-carry
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-chicken
+[38;5;73m[ citizen-server-impl] Started resource ctn-chicken
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-oxyruns
+[38;5;73m[ citizen-server-impl] Started resource ctn-oxyruns
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dede
+[38;5;73m[ citizen-server-impl] Started resource ctn-dede
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-contracts
+[38;5;73m[ citizen-server-impl] Started resource ctn-contracts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vanillaunicorn
+[38;5;73m[ citizen-server-impl] Started resource ctn-vanillaunicorn
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dices
+[38;5;73m[ citizen-server-impl] Started resource ctn-dices
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-criminaldoctor
+[38;5;73m[ citizen-server-impl] Started resource ctn-criminaldoctor
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-truckrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-truckrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-poledance
+[38;5;73m[ citizen-server-impl] Started resource ctn-ambulanceheli
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmejeep/pranger.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmejeep/pranger.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-gendarmejeep
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.ytd uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.ytd uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter_hi.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter_hi.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-gendarmelaraf
+[38;5;73m[ citizen-server-impl] Asset ctn-lexusgendarme/polgs350.ytd uses 100.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-lexusgendarme/polgs350.ytd uses 100.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-lexusgendarme
+[38;5;73m[ citizen-server-impl] Asset ctn-motocivil/ktmsm.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-motocivil/ktmsm.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-motocivil
+[38;5;73m[ citizen-server-impl] Asset ctn-motogendarme/r1200rtp.ytd uses 44.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-motogendarme/r1200rtp.ytd uses 44.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-motogendarme
+[38;5;73m[ citizen-server-impl] Asset ctn-motopolice/state_bike.ytd uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-motopolice/state_bike.ytd uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-motopolice
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/taxi.ytd uses 22.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/taxi.ytd uses 22.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police+hi.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police+hi.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/ambulance.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/ambulance.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-pack
+[38;5;73m[ citizen-server-impl] Started resource ctn-Police_Heli
+[38;5;73m[ citizen-server-impl] Asset ctn-police4x4/police5.ytd uses 36.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-police4x4/police5.ytd uses 36.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-police4x4
+[38;5;73m[ citizen-server-impl] Asset ctn-policelaraf/polnspeedo.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-policelaraf/polnspeedo.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-policelaraf
+[38;5;73m[ citizen-server-impl] Asset ctn-policemotodt/kx450f.ytd uses 20.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-policemotodt/kx450f.ytd uses 20.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-policemotodt
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo+hi.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo+hi.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-pressvan
+[38;5;73m[ citizen-server-impl] Asset ctn-president/onebeast.ytd uses 34.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-president/onebeast.ytd uses 34.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-president
+[38;5;73m[ citizen-server-impl] Started resource ctn-undercover
+[38;5;73m[ citizen-server-impl] Asset ctn-undercover2/polschafter3.ytd uses 26.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-undercover2/polschafter3.ytd uses 26.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-undercover2
+[38;5;73m[ citizen-server-impl] Started resource stream-msemen
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hotdogjob
+[38;5;73m[ citizen-server-impl] Started resource ctn-hotdogjob
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-fishing
+[38;5;73m[ citizen-server-impl] Started resource ctn-fishing
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-tequilala
+[38;5;73m[ citizen-server-impl] Started resource ctn-tequilala
+[38;5;73m[ citizen-server-impl] Could not open logo.png for reading.
+[38;5;171m[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
+[38;5;66m[          svadhesive] Authenticating server license key...
+[38;5;77m[ script:ghmattimysql] [ghmattimysql] [ERROR] connect ETIMEDOUT
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[38;5;73m[ citizen-server-impl] Started resource fivem-map-hipster
+[38;5;100m[ script:nevo-scripts] [leo] Module Ready
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[38;5;77m[  script:ctn-garages] [Catena garages] Loaded 0 vehicles.
+[38;5;77m[  script:ctn-garages] [Catena garages] Loaded 0 house garages.
+[38;5;77m[  script:ctn-garages] [Catena garages] Waiting for first player in order to create vehicles.
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://unbreakablerp01-vjee7r.users.cfx.re/
+[38;5;73m[ citizen-server-impl] -- [server notice: hostname_rework]
+[38;5;73m[ citizen-server-impl] You don't have sv_projectName/sv_projectDesc set.
+[38;5;73m[ citizen-server-impl] These variables augment sv_hostname and fix your server name being cut off in the server list.
+[38;5;73m[ citizen-server-impl] Use `sets sv_projectName ..` and `sets sv_projectDesc ..` to set them.
+[38;5;73m[ citizen-server-impl] 
+[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] 
+
+
+=================================================================
+FXServer crashed.
+A dump can be found at /home/catena-s3-current/alpine/opt/cfx-server/crashes/7e3a190a-14d9-4dd7-e071b7a6-d993f400.dmp.
+Crash report ID: e629394b-e93c-40e8-b6a2-6fc90dc98288
+=================================================================
+
+================================================================
+======== FXServer starting - 4/21/2021, 10:38:28 AM
+================================================================
+[38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 212 resources.
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 3.6.4 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Roleplay
+[38;5;73m[ citizen-server-impl] Started resource fivem
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for ghmattimysql
+[38;5;73m[ citizen-server-impl] Started resource ghmattimysql
+[38;5;161m[    c-scripting-core] Creating script environments for debug
+[38;5;73m[ citizen-server-impl] Started resource debug
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;73m[ citizen-server-impl] Started resource baseevents
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-core
+[38;5;73m[ citizen-server-impl] Started resource ctn-core
+[38;5;73m[ citizen-server-impl] Couldn't find resource webadmin.
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-discordconnector
+[38;5;73m[ citizen-server-impl] Started resource ctn-discordconnector
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-multicharacter
+[38;5;73m[ citizen-server-impl] Started resource ctn-multicharacter
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Could not make hard link for /home/catena-s3-current/resources//[standalone]/bob74_ipl/stream//cassidycreek/canyonriver01.ymap <-> /home/catena-s3-current/cache/files/bob74_ipl/stream_cache/z9f160cfcb5d8aafd64c207a8f8a870ad4e1b62ce.
+[38;5;73m[ citizen-server-impl] Started resource bob74_ipl
+[38;5;73m[ citizen-server-impl] Started resource warmenu
+[38;5;73m[ citizen-server-impl] Started resource gamemeta
+[38;5;73m[ citizen-server-impl] Started resource gunmeta
+[38;5;73m[ citizen-server-impl] Started resource gunmetaDLC
+[38;5;161m[    c-scripting-core] Creating script environments for nevo-scripts
+[38;5;73m[ citizen-server-impl] Started resource nevo-scripts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-spawn
+[38;5;73m[ citizen-server-impl] Started resource ctn-spawn
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-inventory
+[38;5;73m[ citizen-server-impl] Started resource ctn-inventory
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hud
+[38;5;73m[ citizen-server-impl] Started resource ctn-hud
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weapons
+[38;5;73m[ citizen-server-impl] Started resource ctn-weapons
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-admin
+[38;5;73m[ citizen-server-impl] Started resource ctn-admin
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-spectate
+[38;5;73m[ citizen-server-impl] Started resource ctn-spectate
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-banking
+[38;5;73m[ citizen-server-impl] Started resource ctn-banking
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-atms
+[38;5;73m[ citizen-server-impl] Started resource ctn-atms
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-radio
+[38;5;73m[ citizen-server-impl] Started resource ctn-radio
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-api
+[38;5;73m[ citizen-server-impl] Started resource ctn-api
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-smallresources
+[38;5;73m[ citizen-server-impl] Started resource ctn-smallresources
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weathersync
+[38;5;73m[ citizen-server-impl] Started resource ctn-weathersync
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/frankelientje.ydr uses 27.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/methlab_shell.ytd uses 23.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-interior/micheal_shell.ydr uses 30.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-interior
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-houses
+[38;5;73m[ citizen-server-impl] Started resource ctn-houses
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource ctn-vehicleshop
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-radialmenu
+[38;5;73m[ citizen-server-impl] Started resource ctn-radialmenu
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-phone
+[38;5;73m[ citizen-server-impl] Started resource ctn-phone
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-apartments
+[38;5;73m[ citizen-server-impl] Started resource ctn-apartments
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-storerobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-storerobbery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-doorlock
+[38;5;73m[ citizen-server-impl] Started resource ctn-doorlock
+[38;5;73m[ citizen-server-impl] Started resource ctn-lockpick
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-houserobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-houserobbery
+[38;5;73m[ citizen-server-impl] Started resource threatbar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-streetraces
+[38;5;73m[ citizen-server-impl] Started resource ctn-streetraces
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-carwash
+[38;5;73m[ citizen-server-impl] Started resource ctn-carwash
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-occasions
+[38;5;73m[ citizen-server-impl] Started resource ctn-occasions
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-jewellery
+[38;5;73m[ citizen-server-impl] Started resource ctn-jewellery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-bankrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-bankrobbery
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-fitbit
+[38;5;73m[ citizen-server-impl] Started resource ctn-fitbit
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-commandbinding
+[38;5;73m[ citizen-server-impl] Started resource ctn-commandbinding
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vehiclerental
+[38;5;73m[ citizen-server-impl] Started resource ctn-vehiclerental
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-afkkick
+[38;5;73m[ citizen-server-impl] Started resource ctn-afkkick
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-anticheat
+[38;5;73m[ citizen-server-impl] Started resource ctn-anticheat
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-skillbar
+[38;5;73m[ citizen-server-impl] Started resource ctn-skillbar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-weed
+[38;5;73m[ citizen-server-impl] Started resource ctn-weed
+[38;5;73m[ citizen-server-impl] Started resource ctn-loading
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-taxi
+[38;5;73m[ citizen-server-impl] Started resource ctn-taxi
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-news
+[38;5;73m[ citizen-server-impl] Started resource ctn-news
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-clothing
+[38;5;73m[ citizen-server-impl] Started resource ctn-clothing
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-clothings
+[38;5;73m[ citizen-server-impl] Started resource ctn-clothings
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-cityhall
+[38;5;73m[ citizen-server-impl] Started resource ctn-cityhall
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-pawnshop
+[38;5;73m[ citizen-server-impl] Started resource ctn-pawnshop
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-scoreboard
+[38;5;73m[ citizen-server-impl] Started resource ctn-scoreboard
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-diving
+[38;5;73m[ citizen-server-impl] Started resource ctn-diving
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-instances
+[38;5;73m[ citizen-server-impl] Started resource ctn-instances
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-traphouses
+[38;5;73m[ citizen-server-impl] Started resource ctn-traphouses
+[38;5;73m[ citizen-server-impl] Started resource ctn-keyminigame
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dispatch
+[38;5;73m[ citizen-server-impl] Started resource ctn-dispatch
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-priorities
+[38;5;73m[ citizen-server-impl] Started resource ctn-priorities
+[38;5;73m[ citizen-server-impl] Started resource policestation
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-queue
+[38;5;73m[ citizen-server-impl] Stopping resource hardcap
+[38;5;73m[ citizen-server-impl] Started resource ctn-queue
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-3dme
+[38;5;73m[ citizen-server-impl] Started resource ctn-3dme
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-scripts
+[38;5;73m[ citizen-server-impl] Started resource ctn-scripts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-logs
+[38;5;73m[ citizen-server-impl] Started resource ctn-logs
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-log
+[38;5;73m[ citizen-server-impl] Started resource ctn-log
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-bossmenu
+[38;5;73m[ citizen-server-impl] Started resource ctn-bossmenu
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-garages
+[38;5;73m[ citizen-server-impl] Started resource ctn-garages
+[38;5;73m[ citizen-server-impl] Started resource assets
+[38;5;73m[ citizen-server-impl] Started resource mlofixer
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_shell.ydr uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset int_court/retssal_bobo_texture.ytd uses 25.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource int_court
+[38;5;73m[ citizen-server-impl] Started resource ctn_lspd
+[38;5;73m[ citizen-server-impl] Asset hospitalv2/gabz_pillbox_textures_01.ytd uses 27.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource hospitalv2
+[38;5;161m[    c-scripting-core] Creating script environments for PolyZone
+[38;5;73m[ citizen-server-impl] Started resource PolyZone
+[38;5;161m[    c-scripting-core] Creating script environments for postals
+[38;5;73m[ citizen-server-impl] Started resource postals
+[38;5;73m[ citizen-server-impl] Asset playboyv2/int_mafshell.ydr uses 18.5 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource playboyv2
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^hair_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_056_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_121_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_f_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_g_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_h_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_i_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_j_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_125_k_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^jbib_diff_136_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_034_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_035_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_037_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_038_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^lowr_052_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^task_028_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01^teef_016_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_female_apt01^jbib_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2017^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^lowr_001_r.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_christmas2018^teef_002_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_01^jbib_004_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_gunrunning_hair_01^hair_006_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_004_r.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_a_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_b_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_c_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_d_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_e_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_004_f_whi.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_importexport_01^lowr_diff_006_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01^jbib_diff_001_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_lowrider_01jbib_diff_001_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_mp_f_smuggler_01^jbib_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p^p_head_026.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freemode_01_p_female_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_f_freenıde_01^accs_001_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^feet_diff_023_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_005_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_110_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_114_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^jbib_diff_116_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^lowr_diff_045_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_012_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_013_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_017_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_045_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_046_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_047_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_051_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01^task_diff_044_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_001_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_004_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01^jbib_diff_007_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_apt01jbib_diff_017_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_001_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_002_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_business^accs_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_freemode_mplts^jbib_diff_000_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_male_heist^jbib_diff_012_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^accs_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_d_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_e_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_010_h_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_bikerdlc_01^jbib_diff_022_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_f_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_christmas2018^lowr_diff_007_g_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^accs_diff_009_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_020_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_021_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_003_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_c_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_01^jbib_diff_010_e_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_lowrider_02^hair_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^accs_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_luxe_01^teef_005_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_009_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_010_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_011_u.ydd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_012_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_013_u.ydd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_mp_m_vinewood^task_diff_012_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_024_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p^p_head_diff_025_b.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-eup2021/mp_m_freemode_01_p_male_heist^p_head_diff_004_a.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-eup2021
+[38;5;73m[ citizen-server-impl] Started resource ctn-checkpoint
+[38;5;161m[    c-scripting-core] Creating script environments for lux_vehcontrol
+[38;5;73m[ citizen-server-impl] Started resource lux_vehcontrol
+[38;5;73m[ citizen-server-impl] Started resource ctn-jobs
+[38;5;73m[ citizen-server-impl] Started resource veh-hud
+[38;5;73m[ citizen-server-impl] Started resource assets_weapons
+[38;5;73m[ citizen-server-impl] Started resource addonweapons
+[38;5;73m[ citizen-server-impl] Started resource vehiclehandling
+[38;5;161m[    c-scripting-core] Creating script environments for vehiclefailure
+[38;5;73m[ citizen-server-impl] Started resource vehiclefailure
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner+hi.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/alifeliner.ytd uses 108.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu+hi.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset vehicles/pzulu.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource vehicles
+[38;5;161m[    c-scripting-core] Creating script environments for koil-debug
+[38;5;73m[ citizen-server-impl] Started resource koil-debug
+[38;5;161m[    c-scripting-core] Creating script environments for interact-sound
+[38;5;73m[ citizen-server-impl] Started resource interact-sound
+[38;5;73m[ citizen-server-impl] Started resource progressbar
+[38;5;161m[    c-scripting-core] Creating script environments for safecracker
+[38;5;73m[ citizen-server-impl] Started resource safecracker
+[38;5;161m[    c-scripting-core] Creating script environments for stopdespawn
+[38;5;73m[ citizen-server-impl] Started resource stopdespawn
+[38;5;73m[ citizen-server-impl] Started resource trafficadjuster
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-animations
+[38;5;73m[ citizen-server-impl] Started resource ctn-animations
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-jail
+[38;5;73m[ citizen-server-impl] Started resource ctn-jail
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-police
+[38;5;73m[ citizen-server-impl] Started resource ctn-police
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-mdt
+[38;5;73m[ citizen-server-impl] Started resource ctn-mdt
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hospital
+[38;5;73m[ citizen-server-impl] Started resource ctn-hospital
+[38;5;161m[    c-scripting-core] Creating script environments for policeradar
+[38;5;73m[ citizen-server-impl] Started resource policeradar
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-prison
+[38;5;73m[ citizen-server-impl] Started resource ctn-prison
+[38;5;73m[ citizen-server-impl] Started resource hackgame
+[38;5;161m[    c-scripting-core] Creating script environments for notes
+[38;5;73m[ citizen-server-impl] Started resource notes
+[38;5;161m[    c-scripting-core] Creating script environments for noshuff
+[38;5;73m[ citizen-server-impl] Started resource noshuff
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt1.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_agt2.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_ete.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_fm.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_lg4.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_mle.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rnr.ydr uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_rs050rr.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sa60.ydr uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_sw388.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_te37v.ydr uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset jdmrims/wheel_spor_tsl.ydr uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource jdmrims
+[38;5;161m[    c-scripting-core] Creating script environments for playerhostage
+[38;5;73m[ citizen-server-impl] Started resource playerhostage
+[38;5;73m[ citizen-server-impl] Started resource dpclothing
+[38;5;161m[    c-scripting-core] Creating script environments for tattooshop
+[38;5;73m[ citizen-server-impl] Started resource tattooshop
+[38;5;73m[ citizen-server-impl] Started resource modz_pods
+[38;5;73m[ citizen-server-impl] Started resource menuv
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-SRadio
+[38;5;73m[ citizen-server-impl] Started resource ctn-SRadio
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-taskbarskill
+[38;5;73m[ citizen-server-impl] Started resource ctn-taskbarskill
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-balance
+[38;5;73m[ citizen-server-impl] Started resource ctn-balance
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-sellvehicle
+[38;5;73m[ citizen-server-impl] Started resource ctn-sellvehicle
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-mechanic
+[38;5;73m[ citizen-server-impl] Started resource ctn-mechanic
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-carry
+[38;5;73m[ citizen-server-impl] Started resource ctn-carry
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-chicken
+[38;5;73m[ citizen-server-impl] Started resource ctn-chicken
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-oxyruns
+[38;5;73m[ citizen-server-impl] Started resource ctn-oxyruns
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dede
+[38;5;73m[ citizen-server-impl] Started resource ctn-dede
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-contracts
+[38;5;73m[ citizen-server-impl] Started resource ctn-contracts
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-vanillaunicorn
+[38;5;73m[ citizen-server-impl] Started resource ctn-vanillaunicorn
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-dices
+[38;5;73m[ citizen-server-impl] Started resource ctn-dices
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-criminaldoctor
+[38;5;73m[ citizen-server-impl] Started resource ctn-criminaldoctor
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-truckrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-truckrobbery
+[38;5;73m[ citizen-server-impl] Started resource ctn-poledance
+[38;5;73m[ citizen-server-impl] Started resource ctn-ambulanceheli
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmejeep/pranger.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-gendarmejeep
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter.ytd uses 48.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-gendarmelaraf/psp_mbsprinter_hi.yft uses 22.8 MiB of virtual memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-gendarmelaraf
+[38;5;73m[ citizen-server-impl] Asset ctn-lexusgendarme/polgs350.ytd uses 100.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-lexusgendarme
+[38;5;73m[ citizen-server-impl] Asset ctn-motocivil/ktmsm.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource ctn-motocivil
+[38;5;73m[ citizen-server-impl] Asset ctn-motogendarme/r1200rtp.ytd uses 44.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-motogendarme
+[38;5;73m[ citizen-server-impl] Asset ctn-motopolice/state_bike.ytd uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-motopolice
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/ambulance.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police+hi.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/police.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Asset ctn-pack/taxi.ytd uses 22.2 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-pack
+[38;5;73m[ citizen-server-impl] Started resource ctn-Police_Heli
+[38;5;73m[ citizen-server-impl] Asset ctn-police4x4/police5.ytd uses 36.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-police4x4
+[38;5;73m[ citizen-server-impl] Asset ctn-policelaraf/polnspeedo.ytd uses 32.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-policelaraf
+[38;5;73m[ citizen-server-impl] Asset ctn-policemotodt/kx450f.ytd uses 20.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-policemotodt
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo+hi.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset ctn-pressvan/rumpo.ytd uses 39.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-pressvan
+[38;5;73m[ citizen-server-impl] Asset ctn-president/onebeast.ytd uses 34.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-president
+[38;5;73m[ citizen-server-impl] Started resource ctn-undercover
+[38;5;73m[ citizen-server-impl] Asset ctn-undercover2/polschafter3.ytd uses 26.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Started resource ctn-undercover2
+[38;5;73m[ citizen-server-impl] Started resource stream-msemen
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-hotdogjob
+[38;5;73m[ citizen-server-impl] Started resource ctn-hotdogjob
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-fishing
+[38;5;73m[ citizen-server-impl] Started resource ctn-fishing
+[38;5;161m[    c-scripting-core] Creating script environments for ctn-tequilala
+[38;5;73m[ citizen-server-impl] Started resource ctn-tequilala
+[38;5;73m[ citizen-server-impl] Could not open logo.png for reading.
+[38;5;171m[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
+[38;5;66m[          svadhesive] Authenticating server license key...
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[38;5;73m[ citizen-server-impl] Started resource fivem-map-hipster
+[38;5;100m[ script:nevo-scripts] [leo] Module Ready
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[38;5;77m[ script:ghmattimysql] [ghmattimysql] [SUCCESS] Database server connection established.
+[38;5;77m[  script:ctn-garages] [Catena garages] Loaded 0 vehicles.
+[38;5;77m[  script:ctn-garages] [Catena garages] Loaded 0 house garages.
+[38;5;77m[  script:ctn-garages] [Catena garages] Waiting for first player in order to create vehicles.
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://unbreakablerp01-vjee7r.users.cfx.re/
+[38;5;73m[ citizen-server-impl] -- [server notice: hostname_rework]
+[38;5;73m[ citizen-server-impl] You don't have sv_projectName/sv_projectDesc set.
+[38;5;73m[ citizen-server-impl] These variables augment sv_hostname and fix your server name being cut off in the server list.
+[38;5;73m[ citizen-server-impl] Use `sets sv_projectName ..` and `sets sv_projectDesc ..` to set them.
+[38;5;73m[ citizen-server-impl] 
+[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] 
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;211m[     script:ctn-core] [player-dropped] Frowmza.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;211m[     script:ctn-core] [ctn-core:playerSaved] Frowmza saved.
+[38;5;171m[script:ctn-multichar] [Catena] Frowmza (Citizen ID: AFV00955) has succesfully loaded!
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;73m[ citizen-server-impl] Stopping resource tokovoip_script
+[38;5;161m[    c-scripting-core] Creating script environments for tokovoip_script
+[38;5;73m[ citizen-server-impl] Started resource tokovoip_script
+[38;5;84m[      script:monitor] [txAdminClient] Sending resources list to txAdmin.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (1)
+[38;5;211m[     script:ctn-core] [player-dropped] Frowmza.
+[38;5;211m[     script:ctn-core] [ctn-core:playerSaved] Frowmza saved.
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)
+[38;5;58m[script:ctn-smallreso] [DiscordRich] Updated server players. (0)

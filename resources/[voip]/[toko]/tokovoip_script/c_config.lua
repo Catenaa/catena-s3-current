@@ -30,10 +30,10 @@ TokoVoipConfig = {
 		TSChannelWait = "Catena-Airport",
 
 		-- Blocking screen informations
-		TSServer = "Catenaroleplay.teamspeak.me", -- TeamSpeak server address to be displayed on blocking screen
+		TSServer = "catenarp.com", -- TeamSpeak server address to be displayed on blocking screen
 		TSChannelSupport = "Waiting for help", -- TeamSpeak support channel name displayed on blocking screen
 		TSChannelWhitelist = { -- Black screen will not be displayed when users are in those TS channels
-			"H?? Support (ouvert) channel",
+			"Support (ouvert) channel",
 		},
 
 		-- The following is purely TS client settings, to match tastes
@@ -43,8 +43,8 @@ TokoVoipConfig = {
 		remote_click_off = true, -- Is remote click off sound active
 		enableStereoAudio = true, -- If set to true, positional audio will be stereo (you can hear people more on the left or the right around you)
 
-		localName = "", -- If set, this name will be used as the user's teamspeak display name
-		localNamePrefix = "[" .. GetPlayerServerId(PlayerId()) .. "]CTN ", -- If set, this prefix will be added to the user's teamspeak display name
+		localName = " Catena Player", -- If set, this name will be used as the user's teamspeak display name
+		localNamePrefix = "[" .. GetPlayerServerId(PlayerId()) .. "]", -- If set, this prefix will be added to the user's teamspeak display name
 	}
 };
 

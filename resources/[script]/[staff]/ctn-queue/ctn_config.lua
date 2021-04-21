@@ -2,9 +2,7 @@ Config = {}
 
 local Prefix = "[CatenaRP] "
 Config.DiscordServerID = 488314532020879370
-Config.DiscordBotToken = "NjkxODUwODkzNzA0MDM2Mzgz.Xnl-Ww.aDM3zNrHYqXGtk3xyj81bfPBHuI"
-Config.ApiLink = "http://realistic-life.co.il/api/queue.php/"
-Config.ApiKey = "5166546A576E5A7234743777217A25432A462D4A614E645267556B5870"
+Config.DiscordBotToken = "ODEzNDA2NjYzMTc5NzYzNzEy.YDO1_A.HWB0vLEx4zTi-wAzqc750qo9NCM"
 Config.maxServerSlots = 128
 Config.Roles = {
 	Staff = {

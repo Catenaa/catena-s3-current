@@ -31,6 +31,6 @@ QBConfig.Server.PermissionList = {} -- permission list
 
 QBConfig.Server.PermissionList = {} -- permission list
 QBConfig.Guildid = "488314532020879370" -- your guild id here
-QBConfig.Bottoken = "ODEzNDA2NjYzMTc5NzYzNzEy.YDO1_A.JPV59SbwuRQx1dEIK7ZU-x2n5bc" -- bot token on str
+QBConfig.Bottoken = "ODEzNDA2NjYzMTc5NzYzNzEy.YDO1_A.HWB0vLEx4zTi-wAzqc750qo9NCM" -- bot token on str
 QBConfig.Roleid = "807548304942170153"   ---  
 QBConfig.Roleidadmin = "704096073635070093"   ---  

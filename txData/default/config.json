@@ -1,0 +1,42 @@
+{
+  "global": {
+    "serverName": "Catena",
+    "language": "en"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "restarterScheduleWarnings": [
+      30,
+      15,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "statsCollector": {},
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join http://discord.gg/example.\nYour Request ID: <id>",
+    "wipePendingWLOnStart": true
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": true,
+    "token": "ODI5Njg3NDY0Njc0OTgzOTU2.YG7wqg.fht7EAyu86pFh3-KLPGilvH7W2w",
+    "announceChannel": "829758482881183745",
+    "prefix": "/",
+    "statusMessage": "**IP:** `catenarp.com:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "serverDataPath": "/home/catena-s3-current/",
+    "cfgPath": "/home/catena-s3-current/server.cfg",
+    "autostart": true
+  }
+}

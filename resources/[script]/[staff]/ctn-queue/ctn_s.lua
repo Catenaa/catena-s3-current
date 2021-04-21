@@ -2,13 +2,6 @@ local globalCounter, latestColor, ColorsTimeout = 0, true, false
 local playersInfo, connectingInfo, savedInfo = {}, {}, {}
 StopResource('hardcap')
 
-Citizen.CreateThread(function()
-	while true do
-		PerformHttpRequest(Config.ApiLink .. '?key=' .. Config.ApiKey .. '&type=SET&queue=' .. #playersInfo, function(statusCode, response, headers) end)
-		Wait(25000)
-	end
-end)
-
 RegisterServerEvent("ctn-queue:playerConnecting")
 AddEventHandler("ctn-queue:playerConnecting", function(source, reject, d)
     local _source = source

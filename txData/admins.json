@@ -1,0 +1,31 @@
+[
+  {
+    "name": "frowmza",
+    "master": true,
+    "password_hash": "$2a$11$08iXxb4zV8sOVhJIgNzNnuptPlOSdoyUl4wi.pxMpOquSpJKjKLYC",
+    "providers": {
+      "citizenfx": {
+        "id": "frowmza",
+        "identifier": "fivem:131251",
+        "data": {
+          "nameid": "https://forum.cfx.re/internal/user/131251",
+          "name": "frowmza",
+          "profile": "https://forum.cfx.re/u/frowmza",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/frowmza/256/99933_2.png",
+          "sub": "577779cab28976c1512db0ef72e76286048dacd1e3bed1df7beacd893e5b18c2"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "ADMINS",
+    "master": false,
+    "password_hash": "$2a$11$ING9I3uk5L3fV2efpwgaueCLRaeitSEVS7cyElGqzV7GSvZg8KpzW",
+    "password_temporary": true,
+    "providers": {},
+    "permissions": [
+      "control.server"
+    ]
+  }
+]

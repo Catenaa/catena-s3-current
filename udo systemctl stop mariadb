@@ -1,0 +1,17 @@
+● mariadb.service - MariaDB 10.3.25 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+     Active: activating (start) since Wed 2021-04-21 10:35:27 UTC; 38s ago
+       Docs: man:mysqld(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 4311 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited, status=0/SUCCESS)
+    Process: 4312 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 4314 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`cd /usr/bin/..; /usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+   Main PID: 4361 (mysqld)
+      Tasks: 30 (limit: 9272)
+     Memory: 72.7M
+     CGroup: /system.slice/mariadb.service
+             └─4361 /usr/sbin/mysqld
+
+Apr 21 10:35:27 vps-0b89d706 systemd[1]: Starting MariaDB 10.3.25 database server...
+Apr 21 10:35:27 vps-0b89d706 mysqld[4361]: 2021-04-21 10:35:27 0 [Note] /usr/sbin/mysqld (mysqld 10.3.25-MariaDB-0ubuntu1) starting as process 4361 ...
+Apr 21 10:35:27 vps-0b89d706 mysqld[4361]: 2021-04-21 10:35:27 0 [Warning] Could not increase number of max_open_files to more than 16384 (request: 32186)

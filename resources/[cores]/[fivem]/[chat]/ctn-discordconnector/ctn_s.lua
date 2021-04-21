@@ -26,7 +26,7 @@ AddEventHandler("ctn-discordconnector:checkPlayer", function()
                     donor = name .. "#" .. tostring(dec)
                     TriggerClientEvent("ctn-discordconnector:SavePlayer", source, donor)
                 end
-            end, "GET", "", {["Content-type"] = "application/json", ["Authorization"] = "Bot ODEzNDA2NjYzMTc5NzYzNzEy.YDO1_A.JPV59SbwuRQx1dEIK7ZU-x2n5bc"})
+            end, "GET", "", {["Content-type"] = "application/json", ["Authorization"] = "Bot ODEzNDA2NjYzMTc5NzYzNzEy.YDO1_A.HWB0vLEx4zTi-wAzqc750qo9NCM"})
         end
     end 
 end)
